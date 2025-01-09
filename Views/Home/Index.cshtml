@@ -1,0 +1,57 @@
+﻿@model dynamic
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Joke</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        h1 {
+            font-size: 2em;
+            color: #333;
+        }
+        #answer {
+            display: none;
+            margin-top: 20px;
+            font-size: 1.5em;
+            color: #28a745;
+        }
+        .reveal-button {
+            padding: 15px 30px;
+            font-size: 1.2em;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .reveal-button:hover {
+            background-color: #0056b3;
+        }
+        .reveal-button:active {
+            transform: scale(0.95);
+        }
+    </style>
+</head>
+<body>
+    <h1>@Model.Question</h1>
+
+    <button class="reveal-button" onclick="revealAnswer()">Show Answer</button>
+
+    <div id="answer">@Model.Answer</div>
+
+    <script>
+        function revealAnswer() {
+            const answer = document.getElementById("answer");
+            answer.style.display = "block";
+        }
+    </script>
+</body>
+</html>
