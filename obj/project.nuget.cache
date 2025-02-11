@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lc63x0Mwu76ckU2PGaamGTpAULAA2oUNZwIMrDtd2+m44ebB/V2Q4W6cStmkh4wepEwpo6pra4RXShncbxyl4Q==",
+  "dgSpecHash": "MZsmTON2Mn0G5rzYVjxWwpBT/zxanGz/0cb9oxj+r0wRY1jO7ckKkqEGBJYXcTQllsFQWd3sfjGO6wIwzolmWg==",
   "success": true,
-  "projectFilePath": "C:\\Repos\\ecp_dotnet\\ECPDotNetApp\\ECPDotNetApp.csproj",
+  "projectFilePath": "C:\\Repos\\ECPDotNetApp\\ECPDotNetApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

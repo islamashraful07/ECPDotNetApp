@@ -8,23 +8,23 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ashra\\.nuget\\packages\\": {},
+    "C:\\Users\\AgileDevice3\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Repos\\ecp_dotnet\\ECPDotNetApp\\ECPDotNetApp.csproj",
+      "projectUniqueName": "C:\\Repos\\ECPDotNetApp\\ECPDotNetApp.csproj",
       "projectName": "ECPDotNetApp",
-      "projectPath": "C:\\Repos\\ecp_dotnet\\ECPDotNetApp\\ECPDotNetApp.csproj",
-      "packagesPath": "C:\\Users\\ashra\\.nuget\\packages\\",
-      "outputPath": "C:\\Repos\\ecp_dotnet\\ECPDotNetApp\\obj\\",
+      "projectPath": "C:\\Repos\\ECPDotNetApp\\ECPDotNetApp.csproj",
+      "packagesPath": "C:\\Users\\AgileDevice3\\.nuget\\packages\\",
+      "outputPath": "C:\\Repos\\ECPDotNetApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\ashra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\AgileDevice3\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -68,7 +68,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.414\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.428\\RuntimeIdentifierGraph.json"
       }
     }
   }

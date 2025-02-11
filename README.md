@@ -2,7 +2,7 @@
 You can pull and run the Docker image directly:
 
 docker pull islamashraful07/ecpdotnetapp:latest
-docker run -d -p 5000:5000 islamashraful07/ecpdotnetapp:latest
+docker run -d -p 5063:5063 islamashraful07/ecpdotnetapp:latest
 
 # Dockerized .NET Core MVC Application
 
@@ -23,15 +23,15 @@ docker run -d -p 5000:5000 islamashraful07/ecpdotnetapp:latest
 
 4.Run the Docker container:
 
-	docker run -d -p 5000:5000 my-dotnet-app
+	docker run -d -p 5063:5063 my-dotnet-app
 
 5.Open the application in a browser:
 
-	http://localhost:5000
+	http://localhost:5063
 	
 	
 Notes
 
-    Make sure port 5000 is available or change the mapping in the docker run command if necessary:
+    Make sure port 5063 is available or change the mapping in the docker run command if necessary:
 
-	docker run -d -p 5001:5000 my-dotnet-app
+	docker run -d -p 5064:5063 my-dotnet-app
